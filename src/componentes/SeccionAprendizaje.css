@@ -55,10 +55,10 @@
 
 /* Agregando imagen de fondo a la sección Tips del Día */
 .seccion-tips-dia {
-  margin-top: 80px;
+  margin-top: 0px;
   position: relative;
-  padding: 60px 0;
-  background-image: url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/tercera_image-lzlQWggzHvkbvRhXveJPm07j9S5VgG.jpg");
+  padding: 0px 0;
+  /* background-image: url("/tercera_image.jpg"); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -71,10 +71,13 @@
   content: "";
   position: absolute;
   top: 0;
+  /*tamaño del card:*/
+  width: 100%;
+  height: 100%;
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.5);
   z-index: 1;
 }
 
